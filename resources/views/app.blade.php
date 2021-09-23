@@ -8,13 +8,9 @@
 		{{-- <title>{{ $title }}</title> --}}
 		<title>title sample</title>
         
-		<!-- Fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
-
-
+		
 		<!-- Styles -->
+		<link href="{{ mix('css/swiper-bundle.css') }}" rel="stylesheet">
 		<link href="{{ mix('css/app.css') }}" rel="stylesheet">
 		
 		<!-- Scripts -->
@@ -22,7 +18,7 @@
 		
 
 	</head>
-	<body class="font-sans antialiased" id="body">
+	<body class="Nyxzar font-sans antialiased" id="body">
 		<div >	
 			<header class="relative">
 				<x-navigation></x-navigation>
@@ -37,8 +33,8 @@
 			</footer>
 		</div>
 
-
-    <script src="{{ mix('js/app.js') }}"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="{{ mix('js/app.js') }}"></script>
 
 		@stack('scripts')
 	</body>

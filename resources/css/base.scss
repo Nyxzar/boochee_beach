@@ -1,0 +1,68 @@
+
+
+
+
+/*--------------------------------------------------------------
+# Font
+--------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'Bon Vivant';
+    src: url('/fonts/BonVivant-Regular.woff2') format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Bon Vivant Serif';
+    src: url('/fonts/BonVivantSerif.woff2') format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('/fonts/Gotham-Book.ttf') format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('/fonts/Gotham-Medium.ttf') format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('/fonts/Gotham-Bold.ttf') format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+
+
+/*--------------------------------------------------------------*/
+
+body {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    // font-family: "Grota Sans Alt";
+    font-family: 'Gotham Book';
+    font-weight: 300;
+    @apply bg-cream text-lg text-darker_brown;
+}
+
+
+.heading_text {
+    font-family: "Bon Vivant Serif";
+    line-height: 1.1em;
+}
+
+.signature {
+    display: block;
+    font-family: "Bon Vivant";
+    line-height: 1.4em;
+}

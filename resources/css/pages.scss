@@ -1,0 +1,44 @@
+
+
+
+.banner-carousel__image {
+    @apply w-full object-cover h-350 sm:h-450 lg:h-600;
+}
+
+
+.banner-pagination {
+    position: absolute;
+    bottom: 26%;
+
+    &.swiper-pagination-bullets  {
+
+        .swiper-pagination-bullet {
+            @apply rounded-none opacity-100 bg-white bg-opacity-0;
+
+            border: 1px solid #fff;
+            width: 14px;
+            height: 6px;
+            box-shadow: 0px 0px 4px -2px;
+
+            &.swiper-pagination-bullet-active {
+                @apply bg-white;
+            }
+        }
+    }
+}
+
+.banner-nav-button  {
+ 
+    &.swiper-button {
+
+        &-next,
+        &-prev {
+            @apply text-white;
+
+            &:after {
+                font-size: 26px;
+            }
+        }
+
+    }
+}
