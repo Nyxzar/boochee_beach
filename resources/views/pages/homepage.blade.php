@@ -25,7 +25,7 @@
             
 
 
-            <section class="theme-wrap py-16">
+            <section class="theme-wrap py-20">
                 <div>
                     <div class="w-10/12 m-auto">
                         <div class="text-center">
@@ -42,7 +42,7 @@
                 </div>
             </section>
 
-            <section class="theme-wrap py-16 relative">
+            <section class="theme-wrap py-20 relative">
                 <div class="flex w-9/12 m-auto">
                     <div class=" flex flex-row items-stretch justify-center w-full  space-x-12" x-data="{ tab: 1 } ">
 
@@ -74,7 +74,7 @@
 
                         <div class="w-3/4">
                             <div class="" x-show="tab === 1">
-                                <div x-show="tab === 1"  x-transition:enter="transition duration-500 transform ease-in" x-transition:enter-start="opacity-0">
+                                <div x-show="tab === 1"  x-transition:enter="transition duration-1000 transform ease-in-out" x-transition:enter-start="opacity-0">
                                     <div>
                                         <img style="height: 48vh;" class="w-full object-cover object-center" src="https://images.unsplash.com/photo-1545552663-0eb050bb04c3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YmVhY2glMjByb29tfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" loading="lazy" alt="">
                                     </div>
@@ -82,7 +82,7 @@
                             </div>
 
                             <div class="" x-show="tab === 2">
-                                <div x-show="tab === 2"   x-transition:enter="transition duration-500 transform ease-in" x-transition:enter-start="opacity-0">
+                                <div x-show="tab === 2"   x-transition:enter="transition duration-1000 transform ease-in-out" x-transition:enter-start="opacity-0">
                                     <div>
                                         <img style="height: 48vh;" class="w-full object-cover object-center" src="https://images.unsplash.com/photo-1520483601560-389dff434fdf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJlYWNoJTIwaG90ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" loading="lazy" alt="">
                                     </div>
@@ -90,7 +90,7 @@
                             </div>
 
                             <div class="" x-show="tab === 3">
-                                <div x-show="tab === 3"   x-transition:enter="transition duration-500 transform ease-in" x-transition:enter-start="opacity-0">
+                                <div x-show="tab === 3"   x-transition:enter="transition duration-1000 transform ease-in-out" x-transition:enter-start="opacity-0">
                                     <div>
                                         <img style="height: 48vh;" class="w-full object-cover object-center" src="https://images.unsplash.com/photo-1537640685236-a9df2496e232?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YmVhY2glMjBob3RlbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" loading="lazy" alt="">
                                     </div>
@@ -98,7 +98,7 @@
                             </div>
 
                             <div class="" x-show="tab === 4">
-                                <div x-show="tab === 4"   x-transition:enter="transition duration-500 transform ease-in" x-transition:enter-start="opacity-0">
+                                <div x-show="tab === 4"   x-transition:enter="transition duration-1000 transform ease-in-out" x-transition:enter-start="opacity-0">
                                     <div>
                                         <img style="height: 48vh;" class="w-full object-cover object-center" src="https://images.unsplash.com/photo-1592229506490-dda533630362?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fGJlYWNoJTIwaG90ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" loading="lazy" alt="">
                                     </div>
@@ -115,7 +115,7 @@
 
             </section>
 
-            <section class=" theme-wrap py-16 relative">
+            <section class=" theme-wrap py-20 relative">
 
                 <div class="w-7/12 m-auto">
                     <div class="text-center">
@@ -142,7 +142,7 @@
                             </div>
                             <div>
                                 <div><img style="height:450px;" class="w-full object-cover object-center" src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFzc2FnZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt=""></div>
-                                <div>Wellness</div>
+                                <div>Massage</div>
                             </div>
                             <div>
                                 <div><img style="height:450px;" class="w-full object-cover object-center" src="https://media.istockphoto.com/photos/happy-traveler-womn-in-hammock-relaxing-on-swing-and-looking-nature-picture-id1305268329?b=1&k=20&m=1305268329&s=170667a&w=0&h=Rm3QTDV906WWIVifA_ZNg9Ryy7-N_qyRoAuOZGE3fh0=" alt=""></div>
@@ -157,37 +157,37 @@
                 </div>
             </section>
 
-            <section class="py-24 bg-dark_brown text-white relative">
+            <section class="py-28 bg-dark_brown text-white relative">
                 <div class="theme-wrap">
-                    <div class="text-center">
+                    <div class="text-center pb-10">
                         <div class="signature text-5xl">Events</div>
                     </div>
                     <div class="space-y-8">
-                        <div class="flex w-5/12 m-auto">
-                            <div>
-                                img
+                        <div class="block lg:flex w-10/12 m-auto">
+                            <div class="lg:order-1 w-7/12 pr-14">
+                                <img src="https://scontent.fmnl25-2.fna.fbcdn.net/v/t39.30808-6/242201657_10159339760046343_4154711142108487388_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_ohc=_RccD07SThYAX-qc_Vv&_nc_ht=scontent.fmnl25-2.fna&oh=33e989ce327b425ab889189040bd8171&oe=615203B4" alt="">
                             </div>
-                            <div>
-                                <div>Baazar</div>
-                                <div>date</div>
-                                <div>
+                            <div class="lg:order-2 w-5/12 mt-20">
+                                <div class="text-4xl">Beach Baazar</div>
+                                <div class="text-xl">date</div>
+                                <div class="py-8">
                                     you will discover monumental works. An opportunity to open your senses and give free rein to your emotions.
                                 </div>
                                 <div>find out more</div>
                             </div>
                         </div>
 
-                        <div class="flex  w-5/12 m-auto">
-                            <div>
-                                <div>Yoga</div>
-                                <div>date</div>
-                                <div>
+                        <div class="block lg:flex w-10/12 m-auto">
+                            <div class="lg:order-2 w-7/12 pl-14">
+                                <img src="https://scontent.fceb2-1.fna.fbcdn.net/v/t1.6435-9/186243881_142268927918387_5661648663368605625_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=730e14&_nc_ohc=SF5A5x7mD6kAX_Il-Oo&_nc_ht=scontent.fceb2-1.fna&oh=48d3483e8c4fdd2be17225df6a483e12&oe=61737BC5" alt="">
+                            </div>
+                            <div class="lg:order-1 w-5/12 mt-20">
+                                <div class="text-4xl">Yoga Wine</div>
+                                <div class="text-xl">date</div>
+                                <div class="py-8">
                                     you will discover monumental works. An opportunity to open your senses and give free rein to your emotions.
                                 </div>
                                 <div>find out more</div>
-                            </div>
-                            <div>
-                                img
                             </div>
                         </div>
 
@@ -202,8 +202,8 @@
 
             <section class="theme-wrap pt-24">
                 <div>
-                    <div class="heading_text text-4xl">Resort</div>
-                    <div class="signature text-5xl">Employees</div>
+                    <div class="heading_text text-5xl">Meet Our </div>
+                    <div class="signature text-6xl pl-6">Furry Residents</div>
                 </div>
                 <div class="py-6 relative " style="display: grid; position: relative; grid-template-columns: repeat(26, minmax(0, 1fr));">
                     <div class="" style="grid-row: 1; grid-column: 1 / span 14; ">
@@ -218,7 +218,7 @@
 
                     <div class=" "  style="grid-column: 13 / -1; grid-row: 1; z-index: 1;">
                         <div class="">
-                            <img style="height:350px;" class="w-full object-cover object-center" src="https://images.pexels.com/photos/731022/pexels-photo-731022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" loading="lazy" alt="">
+                            <img style="height:400px;" class="w-full object-cover object-center" src="https://images.pexels.com/photos/731022/pexels-photo-731022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" loading="lazy" alt="">
                         </div>
                         <div>
                             <div>name</div>
@@ -259,10 +259,9 @@
             </section>
 
 
-
             <section class="theme-wrap pb-16">
                 <div>
-                    Insta
+                    grm
                 </div>
             </section>
 
