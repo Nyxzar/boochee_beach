@@ -55,6 +55,9 @@ body {
     @apply bg-cream text-lg text-darker_brown;
 }
 
+.theme-transition {
+    @apply transition duration-300 ease-in-out;
+  }
 
 .heading_text {
     font-family: "Bon Vivant Serif";

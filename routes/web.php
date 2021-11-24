@@ -15,3 +15,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [PageController::class, 'welcome'])->name('welcome');
+Route::get('/{slug}', [ PageController::class , 'show' ] )->name('page.show');
+Route::get('/rooms/{slug}', [ PageController::class , 'room_show' ] )->name('room.show');

@@ -17,10 +17,8 @@ class CreateTodosTable extends Migration
             $table->id();
             $table->string('title');
             $table->string('sub_title')->nullable();
-            $table->string('slug')->unique();
-            $table->text('intro_text')->nullable();
             $table->string('image')->nullable();
-            $table->text('description')->nullable();
+            $table->longText('description')->nullable();
             $table->timestamp('published_at')->nullable();
             $table->integer('order')->nullable();
             $table->timestamps();

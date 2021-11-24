@@ -14,6 +14,9 @@ module.exports = {
           'darker_brown': '#514b23',
           'light_green': '#cbc9ad',
       },
+      margin: {
+        'auto': 'auto',
+      },
       width: {
         '36%': '36%',
       },

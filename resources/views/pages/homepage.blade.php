@@ -46,7 +46,7 @@
                 <div class="flex w-9/12 m-auto">
                     <div class=" flex flex-row items-stretch justify-center w-full  space-x-12" x-data="{ tab: 1 } ">
 
-                        <div class="text-center w-2/4">
+                        <div class="flex flex-col m-auto text-center w-2/4">
                             <div>
                                 <div class="heading_text text-4xl">Our Rooms </div>
                                 <div class="signature text-5xl">Distinctive Comfort</div>
@@ -76,7 +76,7 @@
                             <div class="" x-show="tab === 1">
                                 <div x-show="tab === 1"  x-transition:enter="transition duration-1000 transform ease-in-out" x-transition:enter-start="opacity-0">
                                     <div>
-                                        <img style="height: 48vh;" class="w-full object-cover object-center" src="https://images.unsplash.com/photo-1545552663-0eb050bb04c3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YmVhY2glMjByb29tfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" loading="lazy" alt="">
+                                        <img style="height: 68vh;" class="w-full object-cover object-center" src="https://images.unsplash.com/photo-1545552663-0eb050bb04c3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YmVhY2glMjByb29tfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" loading="lazy" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -84,7 +84,7 @@
                             <div class="" x-show="tab === 2">
                                 <div x-show="tab === 2"   x-transition:enter="transition duration-1000 transform ease-in-out" x-transition:enter-start="opacity-0">
                                     <div>
-                                        <img style="height: 48vh;" class="w-full object-cover object-center" src="https://images.unsplash.com/photo-1520483601560-389dff434fdf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJlYWNoJTIwaG90ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" loading="lazy" alt="">
+                                        <img style="height: 68vh;" class="w-full object-cover object-center" src="https://images.unsplash.com/photo-1520483601560-389dff434fdf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJlYWNoJTIwaG90ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" loading="lazy" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -92,7 +92,7 @@
                             <div class="" x-show="tab === 3">
                                 <div x-show="tab === 3"   x-transition:enter="transition duration-1000 transform ease-in-out" x-transition:enter-start="opacity-0">
                                     <div>
-                                        <img style="height: 48vh;" class="w-full object-cover object-center" src="https://images.unsplash.com/photo-1537640685236-a9df2496e232?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YmVhY2glMjBob3RlbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" loading="lazy" alt="">
+                                        <img style="height: 68vh;" class="w-full object-cover object-center" src="https://images.unsplash.com/photo-1537640685236-a9df2496e232?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YmVhY2glMjBob3RlbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" loading="lazy" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -100,7 +100,7 @@
                             <div class="" x-show="tab === 4">
                                 <div x-show="tab === 4"   x-transition:enter="transition duration-1000 transform ease-in-out" x-transition:enter-start="opacity-0">
                                     <div>
-                                        <img style="height: 48vh;" class="w-full object-cover object-center" src="https://images.unsplash.com/photo-1592229506490-dda533630362?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fGJlYWNoJTIwaG90ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" loading="lazy" alt="">
+                                        <img style="height: 68vh;" class="w-full object-cover object-center" src="https://images.unsplash.com/photo-1592229506490-dda533630362?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fGJlYWNoJTIwaG90ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" loading="lazy" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -109,7 +109,7 @@
                 </div>
 
 
-                <div class="absolute -bottom-36 right-0 w-72 opacity-70 transform" style="--tw-rotate: 56deg;" >
+                <div class="absolute -bottom-36 right-0 w-72 opacity-90 transform" style="--tw-rotate: 56deg;" >
                     <img src="{{ asset('images/leaf_b.png') }}" alt="tropical leaf">
                 </div>
 
@@ -117,7 +117,7 @@
 
             <section class=" theme-wrap py-20 relative">
 
-                <div class="w-7/12 m-auto">
+                <div class="w-9/12 m-auto">
                     <div class="text-center">
                         <div class="signature text-5xl ">Things to do</div>
                     </div>
@@ -133,12 +133,12 @@
                             </div>
                             <div>
                                 <div><img class="w-full h-450 object-cover object-center" src="https://images.unsplash.com/photo-1622040959024-e4c57e79b1e9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGtheWFrfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt=""></div>
-                                <div>Kayak</div>
+                                <div>Kayaking</div>
                             </div>
 
                             <div>
                                 <div><img class="w-full h-450 object-cover object-center" src="https://images.unsplash.com/photo-1496273626145-58a523ac0b5e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmFmdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt=""></div>
-                                <div>Raft</div>
+                                <div>Floating Raft</div>
                             </div>
                             <div>
                                 <div><img class="w-full h-450 object-cover object-center" src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFzc2FnZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt=""></div>
@@ -169,7 +169,7 @@
                     <div class="space-y-8">
                         <div class="block lg:flex w-10/12 m-auto">
                             <div class="lg:order-1 w-7/12 pr-14">
-                                <img src="https://scontent.fmnl25-2.fna.fbcdn.net/v/t39.30808-6/242201657_10159339760046343_4154711142108487388_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_ohc=_RccD07SThYAX-qc_Vv&_nc_ht=scontent.fmnl25-2.fna&oh=33e989ce327b425ab889189040bd8171&oe=615203B4" alt="">
+                                <img src="https://relaisdechambord.com/wp-content/uploads/2020/10/d6ae5e7a1417e353bfb9e8bf0240c2da65cb1a4c-1-1200x696.jpg" alt="">
                             </div>
                             <div class="lg:order-2 w-5/12 mt-20">
                                 <div class="heading_text text-5xl">Beach Bazaar</div>
@@ -184,7 +184,7 @@
 
                         <div class="block lg:flex w-10/12 m-auto">
                             <div class="lg:order-2 w-7/12 pl-14">
-                                <img src="https://scontent.fceb2-1.fna.fbcdn.net/v/t1.6435-9/186243881_142268927918387_5661648663368605625_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=730e14&_nc_ohc=SF5A5x7mD6kAX_Il-Oo&_nc_ht=scontent.fceb2-1.fna&oh=48d3483e8c4fdd2be17225df6a483e12&oe=61737BC5" alt="">
+                                <img src="https://relaisdechambord.com/wp-content/uploads/2020/10/toue-du-relais-de-chambord-suite-castle-views-7-1-1200x960.jpg" alt="">
                             </div>
                             <div class="lg:order-1 w-5/12 mt-20">
                                 <div class="heading_text text-5xl">Yoga </div>
@@ -207,64 +207,66 @@
 
 
             <section class="theme-wrap pt-24">
-                <div>
-                    <div class="heading_text text-5xl">Meet Our </div>
-                    <div class="signature text-6xl pl-6">Furry Residents</div>
-                </div>
-                <div class="py-6 relative " style="display: grid; position: relative; grid-template-columns: repeat(26, minmax(0, 1fr));">
-
-                    <div class="" style="grid-row: 1; grid-column: 1 / span 14; ">
-                        <div class="pt-8">
-                            <img class="w-full h-450 object-cover object-center" src="https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" loading="lazy" alt="">
-                        </div>
-                        <div>
-                            <div>name</div>
-                            <div></div>
-                        </div>
+                <div class="w-9/12 m-auto">
+                    <div>
+                        <div class="heading_text text-5xl">Meet Our </div>
+                        <div class="signature text-6xl pl-6">Furry Residents</div>
                     </div>
+                    <div class="py-6 relative " style="display: grid; position: relative; grid-template-columns: repeat(26, minmax(0, 1fr));">
 
-                    <div class=" "  style="grid-column: 13 / -1; grid-row: 1; z-index: 1;">
-                        <div class="">
-                            <img class="w-full h-400 object-cover object-center" src="https://images.pexels.com/photos/731022/pexels-photo-731022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" loading="lazy" alt="">
+                        <div class="" style="grid-row: 1; grid-column: 1 / span 14; ">
+                            <div class="pt-8">
+                                <img class="w-full h-350 object-cover object-center" src="https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" loading="lazy" alt="">
+                            </div>
+                            <div>
+                                <div>name</div>
+                                <div></div>
+                            </div>
                         </div>
-                        <div>
-                            <div>name</div>
-                            <div></div>
-                        </div>
-                    </div>
 
-                    <div class="" style="grid-column: 2 / 16; grid-row: 2; z-index: 2;">
-                        <div class="">
-                            <img class="w-full h-400 object-cover object-center" src="https://images.pexels.com/photos/4681107/pexels-photo-4681107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" loading="lazy" alt="">
+                        <div class=" "  style="grid-column: 13 / -1; grid-row: 1; z-index: 1;">
+                            <div class="">
+                                <img class="w-full h-300 object-cover object-center" src="https://images.pexels.com/photos/731022/pexels-photo-731022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" loading="lazy" alt="">
+                            </div>
+                            <div>
+                                <div>name</div>
+                                <div></div>
+                            </div>
                         </div>
-                        <div>
-                            <div>name</div>
-                            <div></div>
-                        </div>
-                    </div>
 
-                    <div class="" style="grid-column: 15 / -1; grid-row: 2; position: relative; top: -14%; right: 4%; z-index: 1;">
-                        <div class="">
-                            <img class="w-full h-550 object-cover object-center" src="https://images.pexels.com/photos/2252311/pexels-photo-2252311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" loading="lazy" alt="">
+                        <div class="" style="grid-column: 2 / 16; grid-row: 2; z-index: 2;">
+                            <div class="">
+                                <img class="w-full h-350 object-cover object-center" src="https://images.pexels.com/photos/4681107/pexels-photo-4681107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" loading="lazy" alt="">
+                            </div>
+                            <div>
+                                <div>name</div>
+                                <div></div>
+                            </div>
                         </div>
-                        <div>
-                            <div>name</div>
-                            <div></div>
-                        </div>
-                    </div>
 
-                    <div class=""  style="grid-column: 4 / -5; grid-row: 3; position: relative; top: -26%;">
-                        <div class="">
-                            <img class="w-full h-450 object-cover object-center" src="https://images.pexels.com/photos/2906033/pexels-photo-2906033.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" loading="lazy" alt="">
+                        <div class="" style="grid-column: 15 / -1; grid-row: 2; position: relative; top: -14%; right: 4%; z-index: 1;">
+                            <div class="">
+                                <img class="w-full h-450 object-cover object-center" src="https://images.pexels.com/photos/2252311/pexels-photo-2252311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" loading="lazy" alt="">
+                            </div>
+                            <div>
+                                <div>name</div>
+                                <div></div>
+                            </div>
                         </div>
-                        <div>
-                            <div>name</div>
-                            <div></div>
-                        </div>
-                    </div>
 
-                    <div class="absolute bottom-1/4 right-8 w-72"  style="z-index: 1;">
-                        <img src="{{ asset('images/tropical_leaf.png') }}" alt="tropical leaves">
+                        <div class=""  style="grid-column: 4 / -5; grid-row: 3; position: relative; top: -26%;">
+                            <div class="">
+                                <img class="w-full h-350 object-cover object-center" src="https://images.pexels.com/photos/2906033/pexels-photo-2906033.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" loading="lazy" alt="">
+                            </div>
+                            <div>
+                                <div>name</div>
+                                <div></div>
+                            </div>
+                        </div>
+
+                        <div class="absolute bottom-1/4 right-8 w-72"  style="z-index: 1;">
+                            <img src="{{ asset('images/tropical_leaf.png') }}" alt="tropical leaves">
+                        </div>
                     </div>
                 </div>
             </section>

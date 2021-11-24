@@ -6,11 +6,11 @@
                 <div class="heading_text font-bold text-4xl">
                     <div>Ready to book your stay?</div>
                 </div>
-                <div> Inquire form</div>
+                <div>Inquire Now!</div>
             </div>
 
             <div class="text-center pt-20">
-                <div class="signature text-6xl pl-6" style="line-height: 0.5em;">Socials</div>
+                <div class="signature text-6xl pl-6" style="line-height: 0.5em;">Follow us </div>
                 <div>
                     <div>facebook</div>
                     <div>instagram</div>
